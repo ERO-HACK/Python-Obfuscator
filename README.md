@@ -1,22 +1,23 @@
-# Python Obfuscator Tool
+# 🔒 Python Obfuscator Tool
 
-A simple and clean Python-based tool to obfuscate your `.py` scripts by encoding them into Base64.  
-Great for hiding source code logic and adding a small layer of security.
-
----
-
-## 💡 Features
-
-- Animated banner with colors
-- Progress loader before start
-- Clean interactive CLI input
-- Auto wraps obfuscated code in an `exec()` block
-- Works on both Windows & Linux terminals
+A simple and stylish Python-based obfuscation tool that encodes your `.py` scripts into Base64 format, wraps them inside an `exec()` block, and makes your source code harder to read.
 
 ---
 
-## 🚀 Usage
+## ✨ Features
 
-### 🔧 Requirements:
+- 🎨 Animated, colorful banner (compatible with Windows/Linux terminals)
+- ⏳ Smooth loading animation before execution
+- 🧠 Intelligent CLI input for file paths
+- 🧱 Obfuscates code using base64 encoding inside an `exec()` call
+- 💡 Switch-based help menu (`-h`)
+- 🖥️ Pure Python — no compilation to `.exe`
+
+---
+
+## 🔧 Requirements
+
+Install the required library:
+
 ```bash
 pip install colorama
